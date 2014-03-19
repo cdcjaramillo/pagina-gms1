@@ -1,0 +1,203 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+body
+{
+	font-family: 'Roboto Slab', serif;
+}
+footer
+{
+	color: rgba(255, 255, 255, 0.6);
+	background:transparent;
+	height: 95px;
+	top: 39px;
+	width: 800px;
+	z-index: 2;
+	margin: auto;
+	position: relative;
+	padding: 0;
+}
+footer #pie
+{
+	width: 300px;
+	position: absolute;
+	right: 0;
+	background: transparent;
+
+}
+footer #pie p 
+{
+	margin: 0;
+	text-align: right;
+	font-size: 0.8em;
+	padding: 0 7px 0 0;
+} 
+footer #pie .uno_footer
+{
+	margin: 0;
+	padding: 10px 40px 0 0;
+	text-align: right;
+	font-size: 1em;
+}
+footer #iconos
+{
+	display: inline-block;
+	position: absolute;
+	width: 308px;
+	left: 0;
+	padding: 0;
+	margin: 0;
+	top: 50px;
+}
+footer #iconos a
+{
+	padding: 0;
+	margin: 0;
+}
+footer #iconos .botones:nth-child(1)
+{
+	padding: 0;
+	margin: 0;
+	width: 88px;
+	left: 0;
+	position: absolute;
+}
+footer #iconos .botones:nth-child(1) a img
+{
+	width: 88px;
+}
+footer #iconos .botones:nth-child(2)
+{
+	padding: 0;
+	margin: 0;
+	width: 98px;
+	left: 88px;
+	position: absolute;
+}
+footer #iconos .botones:nth-child(2) a img 
+{
+	width: 98px;
+}
+footer #iconos .botones:nth-child(3)
+{
+	padding: 0;
+	margin: 0;
+	width: 122px;
+	left: 186px;
+	position: absolute;
+}
+footer #iconos .botones:nth-child(3) a img 
+{
+	width: 122px;
+}
+
+header
+{
+	background: transparent;
+	height: 150px;
+	top: 0px;
+	width: 800px;
+	z-index: 2;
+	margin: auto;
+	position: relative;
+
+}
+header #logo
+{
+	margin: 0;
+	left: 50px;
+	padding: 0;
+	position: absolute;
+	top: 46px;
+}
+header #logo img
+{
+	width: 221px;
+}
+nav
+{
+	background: #0096DC;
+	display: inline-block;
+	height: 26px;
+	margin: 0;
+	position: absolute;
+	right: 0px;
+	top: 113px;
+	width: 505px;
+}
+nav ul 
+{
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 0.35em;
+}
+nav ul li
+{
+	display: inline-block;
+	margin: 0 1em 0 0;
+}
+nav ul li a
+{
+	color: white;
+	display: block;
+	font-size: 14px;
+	padding: 0.5em 0;
+	-webkit-transition:.2s;
+	-moz-transition:.2s;
+	-o-transition:.2s;
+	-ms-transition:.2s;
+}
+nav ul li a:hover{
+	background: #00CCFF;
+}
+#azul
+{
+	background: #0096DC;
+	height: 95px;
+	position: absolute;
+	top: 955px;
+	width: 100%;
+	z-index: 1;
+}
+#blanco 
+{
+	background: white;
+	height: 24px;
+	position: absolute;
+	top: 1050px;
+	width: 100%;
+	z-index: 1;
+}
+#cielo
+{
+	background: #00CCFF;
+	height: 49px;
+	position: absolute;
+	top: 101px;
+	width: 100%;
+	z-index: 1;
+}
+#verde
+{
+	background: #A8CF45;
+	height: 24px;
+	position: absolute;
+	top: 60px;
+	width: 100%;
+	z-index: 1;
+}
+#volante 
+{
+	background: transparent;
+	margin: auto;
+	position: relative;
+	top: 35px;
+	width: 800px;
+}
+#volante .imagen1 
+{
+	padding: 0;
+	margin: 0;
+}
+#volante .imagen1 img
+{
+	width: 800px;
+} 
